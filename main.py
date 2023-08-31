@@ -1,16 +1,13 @@
 import cv2
 
-# 02/05/2023
-
 # Configurable Parameters
-# source = "cheetah.jpg"
-source = "R.jpeg"
+source = "R.jpeg"  # edit your source Image name here
 desti = f"resized_{source}"
 # desti = f"resized.png"
 # desti = f"resized.jpg"
 # desti = f"resized.jpeg"
 # desti = "resized_img.png"
-scale_percent = 50
+scale_percent = 50  # choose scale percent here
 
 src = cv2.imread(source, cv2.IMREAD_UNCHANGED)
 # cv2.imshow("title", src)
